@@ -1,0 +1,659 @@
+"Year","Associated_tsunami","Associated_earthquake","Country","Latitude","Longitude","Elevation","Type","Status","Time","VEI","Deaths","Deaths_description","Missing","Missing_description","Injuries","Injuries_description","Damage_million_dollars","Damage_description","Houses_destroyed","Houses_destroyed_description"
+-4360,0,0,"New Zealand",-30.2,-178.47,238,"Caldera","Holocene","U",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-4350,0,0,"Japan",30.78,130.28,717,"Caldera","Historical","D1",7,NA,3,NA,NA,NA,NA,NA,3,NA,3
+-4050,0,0,"Nicaragua",11.984,-86.161,635,"Caldera","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-4000,0,0,"Papua New Guinea",-5.58,150.52,742,"Caldera","Historical","D2",6,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+-3580,0,0,"Philippines",14.002,120.993,400,"Stratovolcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-3550,0,0,"Philippines",15.13,120.35,1486,"Stratovolcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-2040,0,0,"Papua New Guinea",-5.358,147.12,1280,"Complex volcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1900,0,0,"United States",56.53,-158.8,1032,"Stratovolcano","Radiocarbon","D7",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1890,0,0,"Chile",-45.9,-72.97,1905,"Stratovolcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1860,0,0,"United States",46.2,-122.18,2549,"Stratovolcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1750,0,0,"United States",56.17,-159.38,2507,"Stratovolcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1645,0,0,"United States",56.88,-158.17,1341,"Caldera","Historical","D2",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1610,1,1,"Greece",36.404,25.396,329,"Shield volcano","Historical","D2",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1550,1,0,"United States",60.48,-152.75,3108,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1460,0,0,"New Zealand",-38.82,176,760,"Caldera","Radiocarbon","D6",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1370,0,0,"Papua New Guinea",-5.58,150.52,742,"Caldera","Historical","D2",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-1050,0,0,"Philippines",15.13,120.35,1486,"Stratovolcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-250,0,0,"New Zealand",-29.27,-177.92,516,"Stratovolcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-197,1,0,"Greece",36.404,25.396,329,"Shield volcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-150,0,0,"Papua New Guinea",-2.38,147.35,270,"Complex volcano","Historical","D2",NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+-141,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",NA,40,1,NA,NA,NA,NA,NA,NA,NA,NA
+-100,0,0,"United States",53.42,-168.13,1073,"Shield volcano","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+-50,0,0,"Nicaragua",12.242,-86.342,518,"Pyroclastic shield","Radiocarbon","D7",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+46,1,0,"Greece",36.404,25.396,329,"Shield volcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+50,0,0,"Vanuatu",-16.25,168.12,1334,"Pyroclastic shield","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60,0,0,"United States",61.38,-141.75,5005,"Stratovolcano","Radiocarbon","D6",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",5,3500,4,NA,NA,NA,NA,NA,NA,NA,NA
+200,0,0,"Yemen",15.63,44.08,3100,"Volcanic field","Historical","D6",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+230,0,0,"New Zealand",-38.82,176,760,"Caldera","Radiocarbon","D6",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+240,0,0,"Russia",51.8,157.53,1079,"Stratovolcano","Historical","D2",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+350,1,0,"United States",59.37,-153.42,1252,"Lava dome","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+416,1,0,"Indonesia",-6.102,105.423,813,"Caldera","Historical","D1",NA,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+450,0,0,"El Salvador",13.672,-89.053,450,"Caldera","Historical","D3",6,30000,4,NA,NA,NA,NA,NA,NA,NA,NA
+500,0,0,"Yemen",15.63,44.08,3100,"Volcanic field","Historical","D6",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+540,0,0,"Papua New Guinea",-4.271,152.203,688,"Pyroclastic shield","Historical","D1",6,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+590,0,0,"El Salvador",13.736,-89.286,1893,"Stratovolcano","Historical","D2",NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+640,0,0,"Saudi Arabia",27.08,37.25,1900,"Volcanic field","Anthropology","D6",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+710,0,0,"Papua New Guinea",-5.58,150.52,742,"Caldera","Historical","D2",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+764,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",4,80,2,NA,NA,NA,NA,NA,NA,NA,NA
+766,1,1,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",3,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+787,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",3,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+800,0,0,"Papua New Guinea",-5.056,150.108,400,"Caldera","Anthropology","D3",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+800,0,0,"United States",61.38,-141.75,5005,"Stratovolcano","Radiocarbon","D6",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+920,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+930,0,0,"Mexico",21.125,-104.508,2280,"Stratovolcano","Historical","D3",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+934,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+950,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1000,0,0,"North Korea",41.98,128.08,2744,"Stratovolcano","Historical","D4",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1050,1,0,"Greece",36.404,25.396,329,"Shield volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1104,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",5,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1151,0,0,"Iceland",63.93,-22.1,379,"Crater rows","Historical","D6",1,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1158,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1169,1,1,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1169,1,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1177,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1206,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1250,0,0,"Ethiopia",8.975,39.93,2007,"Stratovolcano","Historical","D3",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1262,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1280,0,0,"Ecuador",-0.85,-78.9,3914,"Caldera","Radiocarbon","D6",6,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1300,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1302,0,0,"Italy",40.73,13.897,789,"Complex volcano","Historical","D6",NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1311,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1311,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1329,1,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1329,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",1,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1331,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1334,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1341,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1357,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1362,0,0,"Iceland",64,-16.65,2119,"Stratovolcano","Historical","D4",5,220,3,NA,NA,NA,NA,NA,NA,NA,NA
+1376,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1385,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1389,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1410,0,0,"Japan",37.12,139.97,1917,"Stratovolcano","Historical","D2",3,180,3,NA,NA,NA,NA,NA,NA,NA,NA
+1452,0,0,"Vanuatu",-16.829,168.536,-2,"Caldera","Historical","D1",6,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1471,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",5,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1477,0,0,"Iceland",64.63,-17.53,2000,"Stratovolcano","Historical","D2",6,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1485,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1500,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1510,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1536,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1538,0,0,"Italy",40.827,14.139,458,"Caldera","Historical","D5",3,24,1,NA,NA,NA,NA,NA,NA,NA,NA
+1540,1,0,"United States",59.37,-153.42,1252,"Lava dome","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1550,0,0,"Indonesia",1.68,127.88,1185,"Complex volcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1564,0,0,"Indonesia",1.375,127.52,1635,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1565,0,1,"Guatemala",14.381,-90.601,2552,"Complex volcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1566,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",3,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1570,0,0,"Nicaragua",11.826,-85.968,1344,"Stratovolcano","Holocene","U",NA,400,3,NA,NA,NA,NA,NA,NA,NA,NA
+1576,0,0,"Mexico",19.514,-103.62,3850,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1580,0,0,"Portugal",38.65,-28.08,1053,"Fissure vent","Historical","D2",3,10,1,NA,NA,NA,NA,NA,NA,NA,NA
+1580,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1581,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1586,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",5,10000,4,NA,NA,NA,NA,NA,NA,NA,NA
+1587,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",4,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1593,0,0,"Indonesia",-8.125,114.042,3332,"Stratovolcano","Historical","D1",5,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1595,0,0,"Colombia",4.895,-75.322,5321,"Stratovolcano","Historical","D1",4,636,3,NA,NA,NA,NA,NA,NA,NA,NA
+1596,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1597,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1597,0,0,"Indonesia",-8.125,114.042,3332,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1598,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,800,3,NA,NA,NA,NA,NA,NA,NA,NA
+1598,0,0,"Pacific Ocean",-4.525,129.871,640,"Caldera","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1600,0,1,"Peru",-16.608,-70.85,4850,"Stratovolcano","Historical","D5",6,1400,4,NA,NA,NA,NA,NA,NA,NA,NA
+1606,1,0,"Japan",33.13,139.77,854,"Stratovolcano","Historical","D5",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1608,1,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1609,0,0,"China",25.32,98.47,2865,"Pyroclastic cone","Historical","D5",NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1615,0,0,"Pacific Ocean",-4.525,129.871,640,"Caldera","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,2,NA,2
+1617,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1625,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1629,0,0,"Iceland",64.42,-17.33,1725,"Caldera","Historical","D1",2,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1630,0,0,"Portugal",37.77,-25.32,805,"Stratovolcano","Historical","D5",4,200,3,NA,NA,NA,NA,NA,NA,NA,NA
+1631,0,1,"Ethiopia",11.28,41.63,1068,"Shield volcano","Historical","D5",NA,50,1,NA,NA,NA,NA,NA,2,NA,NA
+1631,1,1,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",4,4000,4,NA,NA,NA,NA,NA,4,NA,4
+1636,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1638,0,0,"Indonesia",-8.125,114.042,3332,"Stratovolcano","Historical","D1",3,1000,3,NA,NA,NA,NA,NA,NA,NA,NA
+1640,1,1,"Japan",42.07,140.68,1140,"Stratovolcano","Historical","D1",5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1646,0,0,"Indonesia",0.32,127.4,1357,"Stratovolcano","Historical","D1",4,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1650,1,0,"Greece",36.404,25.396,329,"Shield volcano","Historical","D2",4,120,3,NA,NA,NA,NA,NA,NA,NA,NA
+1659,0,1,"El Salvador",13.736,-89.286,1893,"Stratovolcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1659,1,0,"Pacific Ocean",-6.92,129.125,655,"Stratovolcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1660,0,0,"Pacific Ocean",-6.92,129.125,655,"Stratovolcano","Historical","D2",4,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1660,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1660,1,0,"Papua New Guinea",-5.358,147.12,1280,"Complex volcano","Historical","D1",6,2000,4,NA,NA,NA,NA,NA,3,NA,3
+1663,0,0,"Japan",42.53,140.83,731,"Stratovolcano","Historical","D1",5,5,1,NA,NA,NA,NA,NA,NA,NA,NA
+1664,0,0,"Japan",32.75,130.3,1500,"Complex volcano","Historical","D1",2,30,1,NA,NA,NA,NA,NA,NA,NA,NA
+1664,1,0,"Japan",27.85,128.25,217,"Complex volcano","Historical","D1",NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1669,0,1,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",3,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1670,0,0,"Vanuatu",-15.4,167.83,1496,"Shield volcano","Historical","D1",2,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1672,0,0,"Portugal",38.6,-28.73,1043,"Stratovolcano","Historical","D2",2,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1672,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,3000,4,NA,NA,NA,NA,NA,NA,NA,NA
+1673,1,0,"Indonesia",1.375,127.52,1635,"Stratovolcano","Historical","D1",5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1677,0,0,"Spain",28.58,-17.83,2426,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1679,0,1,"Yemen",14.02,42.75,624,"Shield volcano","Holocene","U",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1682,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",3,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1684,0,0,"Iceland",64.42,-17.33,1725,"Caldera","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1690,1,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1690,0,0,"Indonesia",-7.13,107.83,2249,"Complex volcano","Historical","D3",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1692,0,0,"Pacific Ocean",-6.3,130,641,"Stratovolcano","Historical","D2",4,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1693,0,1,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1693,1,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1694,0,0,"Pacific Ocean",-4.525,129.871,640,"Caldera","Historical","D1",3,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1698,1,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1698,0,0,"Ecuador",-0.677,-78.436,5911,"Stratovolcano","Historical","D2",3,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1698,0,0,"Indonesia",-6.892,108.4,3078,"Stratovolcano","Historical","D2",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1706,1,0,"Spain",28.271,-16.641,3715,"Stratovolcano","Historical","D2",2,NA,NA,NA,NA,NA,NA,NA,3,NA,NA
+1707,1,0,"Greece",36.404,25.396,329,"Shield volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1707,0,1,"Japan",35.35,138.73,3776,"Stratovolcano","Historical","D4",4,NA,1,NA,NA,NA,NA,NA,1,75,1
+1711,0,0,"Indonesia",3.67,125.5,1320,"Stratovolcano","Historical","D1",3,3000,4,NA,NA,NA,NA,NA,NA,NA,NA
+1712,0,0,"Iceland",64.63,-17.53,2000,"Stratovolcano","Historical","D2",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1714,1,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1716,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1716,1,1,"Philippines",14.002,120.993,400,"Stratovolcano","Historical","D1",4,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1716,0,0,"Iceland",64.63,-17.53,2000,"Stratovolcano","Historical","D2",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1716,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",3,1,1,NA,NA,31,1,NA,NA,NA,NA
+1717,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",3,1,1,NA,NA,30,1,NA,NA,NA,NA
+1717,0,0,"Iceland",64.63,-17.53,2000,"Stratovolcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1717,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1718,0,0,"Portugal",38.47,-28.4,2351,"Stratovolcano","Historical","D4",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1721,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",5,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1721,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",1,15,1,NA,NA,NA,NA,NA,NA,NA,NA
+1726,0,0,"Iceland",64.63,-17.53,2000,"Stratovolcano","Historical","D2",1,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1727,0,0,"Iceland",64,-16.65,2119,"Stratovolcano","Historical","D4",4,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1729,0,0,"Iceland",64.63,-17.53,2000,"Stratovolcano","Historical","D2",1,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1729,0,0,"Iceland",65.73,-16.78,650,"Caldera","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1730,0,0,"Spain",29.03,-13.63,670,"Fissure vent","Historical","D3",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1730,0,0,"Indonesia",-8.125,114.042,3332,"Stratovolcano","Historical","D1",3,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1730,0,0,"Canada",55.12,-128.9,609,"Pyroclastic cone","Radiocarbon","D4",NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1737,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",2,2,1,NA,NA,NA,NA,NA,2,NA,NA
+1741,1,1,"Japan",41.5,139.37,737,"Stratovolcano","Historical","D4",4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1742,0,0,"Ecuador",-0.677,-78.436,5911,"Stratovolcano","Historical","D2",3,NA,3,NA,NA,NA,NA,NA,3,NA,NA
+1742,0,0,"Ecuador",-0.677,-78.436,5911,"Stratovolcano","Historical","D2",3,NA,3,NA,NA,NA,NA,NA,3,NA,NA
+1749,1,1,"Philippines",14.002,120.993,400,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+1753,0,0,"Iceland",64.42,-17.33,1725,"Caldera","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1754,1,1,"Philippines",14.002,120.993,400,"Stratovolcano","Historical","D1",4,12,1,NA,NA,NA,NA,NA,4,NA,4
+1755,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1757,0,1,"Portugal",38.65,-28.08,1053,"Fissure vent","Historical","D2",0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1760,0,0,"Indonesia",0.32,127.4,1357,"Stratovolcano","Historical","D1",4,2000,4,NA,NA,NA,NA,NA,NA,NA,NA
+1762,0,0,"Russia",56.057,160.638,4835,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1766,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1766,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,49,1,NA,NA,NA,NA,NA,NA,NA,NA
+1768,0,0,"Ecuador",-0.677,-78.436,5911,"Stratovolcano","Historical","D2",4,NA,3,NA,NA,NA,NA,NA,3,NA,NA
+1772,1,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",3,35,1,NA,NA,NA,NA,NA,NA,NA,NA
+1772,0,0,"Indonesia",-7.32,107.73,2665,"Stratovolcano","Historical","D2",3,2957,4,NA,NA,NA,NA,NA,NA,NA,3
+1773,0,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",2,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1775,0,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",3,1300,4,NA,NA,NA,NA,NA,NA,NA,NA
+1775,0,0,"Indonesia",1.358,124.792,1580,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1778,0,0,"Russia",48.292,153.25,551,"Stratovolcano","Historical","D2",4,15,1,NA,NA,NA,NA,NA,NA,NA,NA
+1779,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1779,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",4,153,3,NA,NA,NA,NA,NA,NA,NA,NA
+1780,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",4,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1780,0,0,"Japan",32.45,139.77,423,"Stratovolcano","Historical","D4",3,7,1,NA,NA,NA,NA,NA,NA,NA,1
+1780,1,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1780,1,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1781,1,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",4,23,1,NA,NA,NA,NA,NA,NA,NA,NA
+1783,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",4,1491,4,NA,NA,NA,NA,NA,NA,NA,NA
+1784,0,0,"Iceland",64.42,-17.33,1725,"Caldera","Historical","D1",4,9350,4,NA,NA,NA,NA,NA,NA,NA,NA
+1784,0,0,"Peru",-15.78,-71.85,5967,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1785,0,0,"Japan",32.45,139.77,423,"Stratovolcano","Historical","D4",3,135,3,NA,NA,NA,NA,NA,NA,NA,NA
+1786,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",2,38,1,NA,NA,NA,NA,NA,NA,NA,2
+1789,0,0,"Japan",34.73,139.38,758,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1790,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",4,5405,4,NA,NA,NA,NA,NA,NA,NA,NA
+1792,1,1,"Japan",32.75,130.3,1500,"Complex volcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1794,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",3,400,3,NA,NA,NA,NA,NA,3,NA,NA
+1800,0,0,"Portugal",38.65,-28.08,1053,"Fissure vent","Historical","D2",1,9,1,NA,NA,NA,NA,NA,NA,NA,NA
+1800,0,0,"Indonesia",-7.13,107.83,2249,"Complex volcano","Historical","D3",NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1800,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1800,0,0,"Tanzania",-9.23,33.78,2175,"Stratovolcano","Historical","D3",2,NA,3,NA,NA,NA,NA,NA,3,NA,NA
+1800,0,0,"United States",19.692,-155.87,2523,"Shield volcano","Historical","D3",0,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1801,0,0,"Japan",39.08,140.03,2237,"Stratovolcano","Historical","D1",2,8,1,NA,NA,NA,NA,NA,NA,NA,NA
+1803,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1803,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1804,0,0,"Japan",42.7,141.33,1320,"Caldera","Historical","D1",3,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1805,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",2,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1812,0,0,"St. Vincent & the Grenadines",13.33,-61.18,1220,"Stratovolcano","Historical","D1",4,56,2,NA,NA,NA,NA,NA,NA,NA,NA
+1812,0,0,"Indonesia",3.67,125.5,1320,"Stratovolcano","Historical","D1",3,953,3,NA,NA,NA,NA,NA,NA,NA,NA
+1814,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",4,1200,4,NA,NA,NA,NA,NA,NA,NA,3
+1815,1,0,"Indonesia",-8.25,118,2850,"Stratovolcano","Historical","D1",7,10000,4,NA,NA,NA,4,NA,4,NA,4
+1816,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1817,0,0,"Indonesia",-8.058,114.242,2799,"Stratovolcano","Historical","D1",2,NA,2,NA,NA,NA,NA,NA,NA,90,2
+1817,0,0,"Indonesia",-8.125,114.042,3332,"Stratovolcano","Historical","D1",4,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1818,0,0,"Mexico",19.514,-103.62,3850,"Stratovolcano","Historical","D1",4,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1819,1,0,"United States",19.67,145.4,857,"Stratovolcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1820,1,1,"United States",54.52,-164.65,1654,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1820,0,0,"Pacific Ocean",-4.525,129.871,640,"Caldera","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1822,0,0,"Japan",42.53,140.83,731,"Stratovolcano","Historical","D1",4,50,1,NA,NA,53,2,NA,NA,NA,2
+1822,0,0,"Indonesia",-7.25,108.05,2168,"Stratovolcano","Historical","D1",5,4011,4,NA,NA,NA,NA,NA,3,NA,3
+1822,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,100,2,NA,NA,NA,2,NA,3,NA,3
+1823,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",0,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1824,0,0,"United States",54.75,-163.97,2857,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1825,0,0,"Papua New Guinea",-5.83,154.98,2715,"Stratovolcano","Holocene","U",NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1826,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",2,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1826,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,65,2,NA,3,NA,3
+1826,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1827,1,1,"Russia",53.255,158.83,2741,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1827,0,0,"Russia",53.255,158.83,2741,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1829,0,0,"Indonesia",-7.13,107.83,2249,"Complex volcano","Historical","D3",2,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1832,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",2,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1832,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,32,1,NA,NA,NA,NA,NA,NA,NA,2
+1833,0,0,"Indonesia",-3.52,102.62,1952,"Stratovolcano","Historical","D2",2,126,3,NA,NA,NA,NA,NA,NA,NA,NA
+1835,0,0,"Nicaragua",12.98,-87.57,872,"Stratovolcano","Historical","D3",5,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1835,0,0,"Pacific Ocean",-4.525,129.871,640,"Caldera","Historical","D1",NA,NA,3,NA,NA,NA,NA,NA,2,NA,2
+1837,1,1,"Indonesia",4.914,96.329,2801,"Complex volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1838,0,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",2,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1839,1,0,"Chile",-33.62,-76.83,-642,"Submarine volcano","Uncertain","Unknown",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1840,1,1,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1840,1,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",0,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1840,0,0,"Solomon Is.",-10.38,165.8,851,"Stratovolcano","Historical","D1",3,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1840,0,0,"Solomon Is.",-9.13,159.82,510,"Stratovolcano","Historical","D3",3,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1841,0,0,"Japan",30.43,130.22,649,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,2,NA,2
+1843,1,0,"St. Kitts & Nevis",17.37,-62.8,1156,"Stratovolcano","Radiocarbon","D6",0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1843,1,0,"Guadeloupe",16.05,-61.67,1467,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1843,0,0,"Indonesia",-8,113.342,1651,"Stratovolcano","Historical","D3",2,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1843,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",2,56,2,NA,NA,NA,2,NA,NA,NA,NA
+1845,1,1,"Indonesia",1.108,124.725,1784,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1845,0,0,"Colombia",4.895,-75.322,5321,"Stratovolcano","Historical","D1",2,1000,3,NA,NA,NA,NA,NA,NA,NA,NA
+1845,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1846,0,0,"Indonesia",-6.77,107.6,2084,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1846,0,0,"Japan",41.8,141.17,618,"Stratovolcano","Historical","D3",1,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1847,0,0,"Cape Verde",14.95,-24.35,2829,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1847,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",2,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1848,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",2,21,1,NA,NA,NA,NA,NA,NA,800,3
+1850,0,0,"Papua New Guinea",-4.271,152.203,688,"Pyroclastic shield","Historical","D1",2,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1853,0,0,"Tonga",-15.6,-175.63,260,"Shield volcano","Historical","D1",0,25,1,NA,NA,NA,NA,NA,NA,NA,NA
+1853,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,34,1,NA,NA,NA,NA,NA,NA,NA,1
+1853,1,0,"Taiwan",24,121.83,0,"Submarine volcano","Historical","D3",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1854,0,0,"Russia",56.653,161.36,3283,"Stratovolcano","Historical","D1",5,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1854,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1856,1,0,"Indonesia",3.67,125.5,1320,"Stratovolcano","Historical","D1",3,2806,4,NA,NA,NA,2,NA,3,NA,3
+1856,1,0,"United States",54.75,-163.97,2857,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1856,0,0,"Japan",42.07,140.68,1140,"Stratovolcano","Historical","D1",4,20,1,NA,NA,NA,NA,NA,NA,NA,3
+1857,1,1,"Papua New Guinea",-5.589,147.875,1548,"Complex volcano","Holocene","U",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1858,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1860,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1860,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1861,0,0,"Eritrea",13.58,41.808,1625,"Stratovolcano","Historical","D3",3,106,3,NA,NA,NA,NA,NA,3,NA,3
+1861,0,0,"Iceland",64.42,-17.33,1725,"Caldera","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1861,0,0,"Indonesia",0.32,127.4,1357,"Stratovolcano","Historical","D1",4,326,3,NA,NA,47,1,NA,NA,NA,3
+1863,1,1,"Vanuatu",-19.52,169.425,361,"Stratovolcano","Historical","D1",NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1864,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",2,54,2,NA,NA,NA,NA,NA,NA,NA,3
+1866,1,0,"United States",-14.175,-169.618,639,"Shield volcano","Historical","D3",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1867,0,0,"Japan",38.15,140.45,1841,"Complex volcano","Historical","D2",2,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1868,1,1,"United States",19.475,-155.608,4170,"Shield volcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,37,1
+1868,1,1,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1869,0,0,"Indonesia",-8.53,122.775,1703,"Stratovolcano","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1869,0,0,"Indonesia",-8,113.342,1651,"Stratovolcano","Historical","D3",2,8,1,NA,NA,NA,NA,NA,NA,NA,NA
+1870,0,0,"Indonesia",2.28,125.425,725,"Stratovolcano","Historical","D2",2,NA,1,NA,NA,NA,NA,NA,NA,40,1
+1870,0,0,"Indonesia",-8.54,123.59,1018,"Complex volcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1870,0,0,"Vanuatu",-15.4,167.83,1496,"Shield volcano","Historical","D1",2,NA,3,NA,NA,NA,NA,NA,3,NA,3
+1871,1,0,"Indonesia",2.28,125.425,725,"Stratovolcano","Historical","D2",2,NA,NA,NA,NA,NA,NA,NA,1,NA,1
+1871,1,1,"Philippines",9.203,124.673,1332,"Stratovolcano","Historical","D2",2,NA,1,NA,NA,NA,NA,NA,3,NA,3
+1871,0,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",2,1,1,NA,NA,1,1,NA,NA,NA,NA
+1871,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1872,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",3,9,1,NA,NA,11,1,NA,NA,NA,NA
+1872,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",4,200,3,NA,NA,NA,NA,NA,3,NA,3
+1872,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",3,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1872,0,0,"Russia",48.875,154.175,934,"Stratovolcano","Historical","D3",4,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1873,0,0,"Philippines",7.67,124.5,2815,"Stratovolcano","Historical","D2",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1874,0,0,"Japan",34.08,139.53,815,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1874,0,0,"Philippines",14.002,120.993,400,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1875,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",0,NA,1,NA,NA,NA,NA,NA,2,NA,2
+1875,0,0,"Iceland",65.03,-16.75,1516,"Stratovolcano","Historical","D2",5,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1877,1,1,"United States",19.475,-155.608,4170,"Shield volcano","Historical","D1",0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1877,0,0,"Ecuador",-0.677,-78.436,5911,"Stratovolcano","Historical","D2",4,340,3,NA,NA,NA,NA,NA,NA,NA,NA
+1878,1,0,"Vanuatu",-19.52,169.425,361,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1878,1,0,"Papua New Guinea",-4.271,152.203,688,"Pyroclastic shield","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1878,1,1,"Vanuatu",-19.52,169.425,361,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1878,1,1,"United States",53.42,-168.13,1073,"Shield volcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1879,1,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1883,0,0,"Comoros",-11.75,43.38,2361,"Shield volcano","Historical","D1",2,NA,3,NA,NA,NA,NA,NA,3,NA,NA
+1883,1,0,"Indonesia",-6.102,105.423,813,"Caldera","Historical","D1",6,2000,4,NA,NA,NA,3,NA,3,NA,3
+1883,1,0,"United States",59.37,-153.42,1252,"Lava dome","Historical","D1",4,8,1,NA,NA,NA,NA,NA,NA,NA,NA
+1883,1,0,"Indonesia",-6.102,105.423,813,"Caldera","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1883,0,0,"Papua New Guinea",-6.14,155.195,1750,"Lava cone","Historical","D1",3,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1884,1,0,"Indonesia",-6.102,105.423,813,"Caldera","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1884,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,74,2,NA,NA,NA,NA,NA,NA,NA,1
+1885,0,1,"Colombia",2.32,-76.4,4650,"Stratovolcano","Historical","D1",3,NA,2,NA,NA,NA,NA,NA,2,NA,2
+1886,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",4,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1886,0,0,"New Zealand",-38.12,176.5,1111,"Lava dome","Historical","D1",2,153,3,NA,NA,NA,NA,NA,NA,NA,NA
+1886,0,0,"Tonga",-15.6,-175.63,260,"Shield volcano","Historical","D1",4,NA,1,NA,1,NA,NA,NA,NA,NA,NA
+1887,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,15,1,NA,NA,NA,NA,NA,NA,NA,NA
+1888,1,0,"Papua New Guinea",-5.52,148.121,140,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1888,0,0,"Japan",37.6,140.08,1819,"Stratovolcano","Historical","D3",4,461,3,NA,NA,70,2,NA,2,NA,2
+1889,1,1,"Indonesia",3.138,125.491,-5,"Submarine volcano","Historical","D2",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1890,0,0,"Indonesia",0.32,127.4,1357,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,3,NA,3
+1890,0,0,"Papua New Guinea",-9.2,149.07,1925,"Stratovolcano","Historical","D2",2,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1892,0,0,"Indonesia",0.686,99.539,2145,"Stratovolcano","Historical","D1",2,180,3,NA,NA,NA,NA,NA,NA,NA,NA
+1892,1,0,"Indonesia",3.67,125.5,1320,"Stratovolcano","Historical","D1",3,1532,4,NA,NA,NA,NA,NA,3,NA,3
+1893,0,0,"Japan",37.73,140.25,2024,"Stratovolcano","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1894,0,0,"Vanuatu",-16.25,168.12,1334,"Pyroclastic shield","Historical","D1",3,10,1,NA,NA,NA,NA,NA,NA,NA,NA
+1895,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+1895,0,0,"Papua New Guinea",-4.649,145.964,1839,"Stratovolcano","Historical","D1",2,21,1,NA,NA,NA,NA,NA,NA,NA,NA
+1895,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",2,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1895,0,0,"Papua New Guinea",-5.056,150.108,400,"Caldera","Anthropology","D3",2,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+1896,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",2,1,1,NA,NA,1,1,NA,NA,NA,NA
+1897,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,350,3,NA,NA,NA,NA,NA,NA,NA,NA
+1899,0,0,"Colombia",1.47,-76.92,4150,"Stratovolcano","Historical","D2",4,55,2,NA,NA,NA,NA,NA,NA,NA,NA
+1899,0,0,"Papua New Guinea",-4.1,145.061,1807,"Stratovolcano","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1900,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,25,1,NA,NA,NA,NA,NA,NA,NA,NA
+1900,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",2,2,1,NA,NA,3,1,NA,NA,NA,NA
+1900,0,0,"Japan",37.62,140.28,1718,"Stratovolcano","Historical","D1",2,72,2,NA,NA,10,1,NA,NA,NA,NA
+1900,0,0,"Ethiopia",8.158,39.13,2349,"Pumice cone","Anthropology","D2",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1901,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",3,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1901,1,1,"Vanuatu",-16.68,168.37,833,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1902,1,0,"Martinique",14.82,-61.17,1397,"Stratovolcano","Historical","D2",NA,23,1,NA,NA,NA,NA,NA,NA,NA,NA
+1902,1,0,"St. Vincent & the Grenadines",13.33,-61.18,1220,"Stratovolcano","Historical","D1",4,1680,4,NA,NA,NA,3,NA,NA,NA,NA
+1902,1,0,"Martinique",14.82,-61.17,1397,"Stratovolcano","Historical","D2",4,28000,4,NA,NA,NA,NA,NA,NA,NA,NA
+1902,1,0,"Martinique",14.82,-61.17,1397,"Stratovolcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1902,0,0,"Japan",30.48,140.32,403,"Stratovolcano","Historical","D1",3,125,3,NA,NA,NA,NA,NA,NA,NA,NA
+1902,1,0,"Martinique",14.82,-61.17,1397,"Stratovolcano","Historical","D2",4,1000,3,NA,NA,NA,NA,NA,NA,NA,NA
+1902,0,0,"Guatemala",14.756,-91.552,3772,"Stratovolcano","Historical","D1",6,1500,4,NA,NA,NA,NA,NA,2,NA,2
+1902,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",2,16,1,NA,NA,45,1,NA,NA,NA,2
+1903,0,0,"New Zealand",-38.12,176.5,1111,"Lava dome","Historical","D1",1,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1904,0,0,"Comoros",-11.75,43.38,2361,"Shield volcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,1,NA,NA
+1905,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",2,1,1,NA,NA,1,1,NA,NA,NA,NA
+1905,1,0,"Samoa",-13.612,-172.525,1858,"Shield volcano","Historical","D2",2,NA,NA,NA,NA,NA,NA,NA,3,NA,3
+1906,1,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",3,350,3,NA,NA,300,3,NA,NA,NA,NA
+1907,1,0,"Tonga",-21.38,-175.65,-500,"Submarine volcano","Historical","D2",0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1907,0,0,"Ethiopia",12.88,40.57,1501,"Shield volcano","Historical","D2",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1907,0,0,"Indonesia",-8.53,122.775,1703,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,1,NA,NA,NA,NA
+1907,1,0,"Samoa",-13.612,-172.525,1858,"Shield volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,3,NA,3
+1909,0,1,"Cameroon",4.203,9.17,4095,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1909,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,221,3,NA,NA,NA,NA,NA,NA,NA,NA
+1910,0,0,"Japan",42.53,140.83,731,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1911,1,1,"Philippines",14.002,120.993,400,"Stratovolcano","Historical","D1",4,1335,4,NA,NA,199,3,NA,3,543,3
+1911,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,60,2
+1911,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,NA,3,NA,NA,NA,NA,NA,NA,NA,NA
+1911,1,0,"Trinidad ",10,-61,140,"Mud volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1911,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1912,0,0,"United States",58.27,-155.16,841,"Caldera","Historical","D2",6,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1912,0,0,"Congo, DRC",-1.408,29.2,3058,"Shield volcano","Historical","D1",3,20,1,NA,NA,NA,NA,NA,NA,NA,NA
+1913,1,1,"Indonesia",3.67,125.5,1320,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1913,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1913,0,0,"Vanuatu",-16.25,168.12,1334,"Pyroclastic shield","Historical","D1",3,21,1,NA,NA,NA,NA,NA,3,NA,NA
+1914,1,1,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",4,28,1,NA,NA,NA,3,0.04,1,2148,3
+1914,0,0,"Papua New Guinea",-5.58,150.52,742,"Caldera","Historical","D2",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1914,0,0,"New Zealand",-37.52,177.18,321,"Stratovolcano","Historical","D1",NA,11,1,NA,NA,NA,NA,NA,NA,NA,NA
+1916,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1916,1,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1917,0,0,"Tanzania",-2.751,35.902,2890,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1917,0,0,"New Zealand",-38.12,176.5,1111,"Lava dome","Historical","D1",1,2,1,NA,NA,3,1,NA,NA,NA,NA
+1917,0,1,"El Salvador",13.736,-89.286,1893,"Stratovolcano","Historical","D2",3,325,3,NA,NA,NA,NA,NA,NA,NA,NA
+1918,1,0,"Indonesia",3.138,125.491,-5,"Submarine volcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1918,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1919,0,0,"Mexico",19.023,-98.622,5426,"Stratovolcano","Historical","D1",1,NA,2,NA,NA,NA,NA,NA,NA,NA,NA
+1919,1,0,"Indonesia",3.138,125.491,-5,"Submarine volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1919,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",4,5110,4,NA,NA,NA,NA,NA,NA,9000,3
+1919,1,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",3,4,1,NA,NA,NA,3,NA,NA,10,1
+1919,1,0,"United States",19.475,-155.608,4170,"Shield volcano","Historical","D1",0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1920,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,33,1,NA,NA,NA,NA,NA,NA,NA,NA
+1920,0,0,"El Salvador",13.813,-89.633,1950,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1923,0,0,"Indonesia",-7.32,107.73,2665,"Stratovolcano","Historical","D2",1,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1923,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1924,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1926,0,0,"Japan",43.42,142.68,2077,"Stratovolcano","Historical","D1",3,146,3,NA,NA,207,3,NA,NA,5080,3
+1927,1,0,"Indonesia",-8.32,121.708,875,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1927,0,0,"Iceland",64.27,-16.65,1760,"Stratovolcano","Historical","D2",1,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1928,0,0,"Greece",36.404,25.396,329,"Shield volcano","Historical","D2",2,48,1,NA,NA,NA,NA,NA,NA,NA,NA
+1928,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1928,1,0,"Indonesia",-6.102,105.423,813,"Caldera","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1928,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",2,40,1,NA,NA,NA,NA,NA,NA,NA,NA
+1928,1,0,"Indonesia",-8.32,121.708,875,"Stratovolcano","Historical","D1",3,98,2,NA,NA,NA,NA,NA,NA,NA,NA
+1928,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",1,5,1,NA,NA,NA,NA,NA,NA,NA,NA
+1929,0,0,"Japan",42.07,140.68,1140,"Stratovolcano","Historical","D1",4,2,1,NA,NA,4,1,NA,NA,NA,NA
+1929,0,0,"Guatemala",14.756,-91.552,3772,"Stratovolcano","Historical","D1",3,200,3,NA,NA,NA,NA,NA,NA,NA,NA
+1930,1,0,"Indonesia",-6.102,105.423,813,"Caldera","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1930,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",3,6,1,NA,NA,NA,NA,NA,NA,NA,NA
+1930,1,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",3,5,1,NA,NA,20,1,NA,2,NA,NA
+1930,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,1369,4,NA,NA,NA,NA,NA,3,1109,3
+1931,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",3,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1932,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",4,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1932,0,0,"Japan",36.62,138.55,2176,"Stratovolcano","Historical","D1",3,2,1,NA,NA,7,1,NA,NA,NA,NA
+1933,1,1,"Russia",49.12,154.508,1145,"Stratovolcano","Historical","D2",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1933,0,0,"Japan",30.43,130.22,649,"Stratovolcano","Historical","D1",4,8,1,NA,NA,26,1,NA,NA,NA,NA
+1933,1,0,"Philippines",12.77,124.05,1565,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1936,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",3,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1937,0,0,"Chile",-38.692,-71.729,3125,"Stratovolcano","Historical","D1",2,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1937,1,1,"Papua New Guinea",-4.271,152.203,688,"Pyroclastic shield","Historical","D1",4,507,3,NA,NA,NA,NA,NA,1,NA,1
+1938,1,0,"Congo, DRC",-1.408,29.2,3058,"Shield volcano","Historical","D1",1,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1938,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1939,0,0,"Japan",30.48,140.32,403,"Stratovolcano","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1939,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",1,10,1,NA,NA,NA,NA,NA,1,NA,NA
+1940,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",2,1,1,NA,NA,2,1,NA,NA,NA,NA
+1940,0,0,"Japan",34.08,139.53,815,"Stratovolcano","Historical","D1",2,11,1,NA,NA,20,1,NA,NA,NA,NA
+1940,0,0,"Tanzania",-2.751,35.902,2890,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1941,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,1,1,NA,NA,1,1,NA,NA,NA,NA
+1941,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1943,0,0,"Mexico",19.48,-102.25,3860,"Cinder cone","Historical","D2",4,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1943,0,0,"Ecuador",-0.9,-91.42,1690,"Shield volcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1944,0,0,"Italy",40.821,14.426,1281,"Complex volcano","Historical","D2",2,27,1,NA,NA,NA,NA,NA,NA,NA,NA
+1944,0,0,"United States",52.82,-169.95,1730,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1944,0,0,"Japan",42.53,140.83,731,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1944,1,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1944,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",2,117,3,NA,NA,250,3,NA,NA,NA,NA
+1946,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1946,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,6,1,NA,NA,NA,NA,NA,2,81,2
+1946,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1947,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1947,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,11,1,NA,NA,NA,NA,NA,NA,NA,NA
+1947,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",4,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1948,0,0,"Indonesia",-8.54,123.59,1018,"Complex volcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,2,NA,NA
+1948,0,0,"Philippines",9.203,124.673,1332,"Stratovolcano","Historical","D2",3,68,2,NA,NA,NA,NA,NA,NA,NA,NA
+1948,0,0,"Chile",-39.42,-71.93,2847,"Stratovolcano","Historical","D1",3,36,1,NA,NA,NA,NA,NA,NA,NA,NA
+1949,0,0,"Colombia",2.32,-76.4,4650,"Stratovolcano","Historical","D1",2,17,1,NA,NA,NA,NA,NA,NA,NA,NA
+1950,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",1,6,1,NA,NA,NA,NA,NA,NA,NA,NA
+1950,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,1,1,NA,NA,1,1,NA,NA,NA,1
+1951,0,0,"Papua New Guinea",-8.95,148.15,1680,"Stratovolcano","Historical","D2",4,2942,4,NA,NA,NA,2,NA,NA,NA,NA
+1951,1,1,"Nicaragua",12.98,-87.57,872,"Stratovolcano","Historical","D3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1951,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",3,7,1,NA,NA,NA,NA,NA,NA,NA,NA
+1951,1,0,"Solomon Is.",-9.02,157.95,-20,"Submarine volcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1952,1,0,"Japan",32.1,139.85,360,"Submarine volcano","Holocene","Unknown",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1952,1,0,"Japan",32.1,139.85,360,"Submarine volcano","Holocene","Unknown",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1952,1,0,"Japan",32.1,139.85,360,"Submarine volcano","Holocene","Unknown",2,31,1,NA,NA,NA,NA,NA,1,NA,NA
+1952,1,0,"Japan",32.1,139.85,360,"Submarine volcano","Holocene","Unknown",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1952,0,0,"Philippines",17.32,121.1,2329,"Compound volcano","Fumarolic","U",1,12,1,NA,NA,NA,NA,NA,NA,NA,NA
+1953,1,0,"Japan",32.1,139.85,360,"Submarine volcano","Holocene","Unknown",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1953,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,64,2,NA,NA,57,2,NA,2,144,3
+1953,1,0,"Japan",32.1,139.85,360,"Submarine volcano","Holocene","Unknown",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1953,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,6,1,NA,NA,NA,NA,NA,NA,NA,NA
+1953,1,0,"Papua New Guinea",-2.38,147.35,270,"Complex volcano","Historical","D2",0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1953,0,0,"Indonesia",-8.51,124.148,862,"Complex volcano","Historical","D1",0,5,1,NA,NA,1,1,NA,NA,NA,NA
+1953,0,0,"Japan",34.73,139.38,758,"Stratovolcano","Historical","D1",1,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1954,1,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1954,0,0,"Papua New Guinea",-3.6,144.85,685,"Stratovolcano","Historical","D2",2,25,1,NA,NA,NA,2,NA,NA,NA,NA
+1954,0,0,"Philippines",9.203,124.673,1332,"Stratovolcano","Historical","D2",NA,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1955,0,0,"Chile",-40.35,-72.07,1114,"Pyroclastic cone","Historical","D1",4,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1955,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",3,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1956,1,0,"Russia",55.978,160.587,2882,"Stratovolcano","Historical","D1",5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1957,0,1,"United States",53.13,-168.68,2149,"Stratovolcano","Historical","D3",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1957,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",2,6,1,NA,NA,NA,NA,NA,2,NA,3
+1957,0,0,"Japan",34.73,139.38,758,"Stratovolcano","Historical","D1",2,1,1,NA,NA,53,2,NA,NA,NA,NA
+1957,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,12,1,NA,NA,NA,NA,NA,NA,NA,NA
+1958,0,0,"Indonesia",1.358,124.858,1324,"Stratovolcano","Historical","D1",2,1,1,NA,NA,10,1,NA,NA,NA,NA
+1958,1,0,"Vanuatu",-16.829,168.536,-2,"Caldera","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1960,1,1,"Chile",-40.59,-72.117,2236,"Stratovolcano","Holocene","U",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1961,0,0,"Japan",36.4,138.53,2560,"Complex volcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1962,0,0,"Japan",43.42,142.68,2077,"Stratovolcano","Historical","D1",3,5,1,NA,NA,11,1,NA,NA,NA,NA
+1962,0,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",2,5,1,NA,NA,5,1,NA,NA,NA,NA
+1963,0,0,"Costa Rica",9.979,-83.852,3432,"Stratovolcano","Historical","D1",3,40,1,NA,NA,NA,1,NA,NA,400,3
+1963,1,0,"Indonesia",-8.342,115.508,3142,"Stratovolcano","Historical","D1",4,1028,4,NA,3,624,3,NA,NA,NA,NA
+1963,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1963,0,1,"Indonesia",-8.342,115.508,3142,"Stratovolcano","Historical","D1",3,120,2,NA,NA,NA,NA,NA,NA,NA,NA
+1963,0,0,"Chile",-39.42,-71.93,2847,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1963,0,0,"Indonesia",-8.242,115.375,1717,"Caldera","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,1
+1963,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",3,7,1,NA,NA,NA,NA,NA,NA,NA,NA
+1964,0,0,"Indonesia",-8.32,121.708,875,"Stratovolcano","Historical","D1",2,1,1,NA,NA,3,1,NA,NA,NA,NA
+1964,0,0,"Chile",-39.42,-71.93,2847,"Stratovolcano","Historical","D1",2,22,1,NA,NA,NA,NA,NA,NA,NA,NA
+1964,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",1,114,3,NA,NA,NA,NA,NA,NA,NA,NA
+1965,1,0,"Philippines",14.002,120.993,400,"Stratovolcano","Historical","D1",4,355,3,NA,NA,NA,NA,NA,1,NA,1
+1966,1,0,"Solomon Is.",-10.38,165.8,851,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1966,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",4,215,3,78,2,86,2,NA,NA,NA,NA
+1966,0,0,"Indonesia",3.67,125.5,1320,"Stratovolcano","Historical","D1",4,39,1,NA,NA,1000,3,NA,NA,NA,2
+1966,0,0,"Tanzania",-2.751,35.902,2890,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1967,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1967,0,0,"Tanzania",-2.751,35.902,2890,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1967,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",3,3,1,NA,NA,NA,NA,NA,1,NA,NA
+1967,1,0,"Antarctica",-62.97,-60.65,576,"Caldera","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1968,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,372,3,120,3,152,3,NA,NA,NA,NA
+1968,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,6,1,NA,NA,NA,NA,NA,NA,NA,NA
+1968,0,0,"Costa Rica",10.463,-84.703,1657,"Stratovolcano","Historical","D1",3,80,2,NA,NA,NA,NA,NA,NA,NA,NA
+1969,0,0,"Indonesia",-8.88,121.63,637,"Stratovolcano","Historical","D1",3,2,1,NA,NA,10,1,NA,NA,287,2
+1969,1,0,"Philippines",19.077,122.202,244,"Compound volcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1970,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1971,0,0,"Chile",-45.9,-72.97,1905,"Stratovolcano","Historical","D1",3,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1971,1,0,"Solomon Is.",-10.38,165.8,851,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1971,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",3,10,1,NA,NA,NA,NA,NA,NA,NA,NA
+1971,0,0,"Spain",28.58,-17.83,2426,"Stratovolcano","Historical","D1",2,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+1971,0,0,"Chile",-39.42,-71.93,2847,"Stratovolcano","Historical","D1",2,15,1,NA,NA,NA,NA,NA,NA,NA,NA
+1972,0,0,"Reunion",-21.229,55.713,2631,"Shield volcano","Historical","D1",2,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1972,1,0,"Papua New Guinea",-5.52,148.121,140,"Stratovolcano","Historical","D1",1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1973,0,0,"Iceland",63.43,-20.28,279,"Submarine volcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1973,0,0,"Indonesia",-8.32,121.708,875,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,1
+1973,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,12,1,NA,NA,NA,NA,NA,NA,NA,NA
+1973,0,0,"Indonesia",-8.54,123.59,1018,"Complex volcano","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1974,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",3,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1974,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",3,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1974,0,0,"Japan",36.92,138.03,2400,"Lava dome","Historical","D1",2,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1974,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",3,5,1,NA,NA,NA,NA,NA,NA,NA,NA
+1974,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",4,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+1974,1,0,"Papua New Guinea",-5.52,148.121,140,"Stratovolcano","Historical","D1",1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1975,0,0,"Indonesia",-0.381,100.473,2891,"Complex volcano","Historical","D1",2,80,2,NA,NA,NA,NA,NA,3,NA,3
+1975,0,0,"Costa Rica",10.463,-84.703,1657,"Stratovolcano","Historical","D1",3,2,1,NA,NA,NA,1,NA,NA,NA,NA
+1975,1,1,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1976,0,0,"Ecuador",-2.03,-78.33,5230,"Stratovolcano","Historical","D1",3,2,1,NA,NA,4,1,NA,NA,NA,NA
+1976,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,119,3,NA,NA,NA,NA,NA,NA,NA,NA
+1976,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",2,1,1,NA,NA,1,1,NA,NA,24,1
+1977,0,0,"Congo, DRC",-1.52,29.25,3470,"Stratovolcano","Historical","D1",1,NA,2,NA,NA,NA,NA,NA,3,NA,NA
+1977,0,0,"Comoros",-11.75,43.38,2361,"Shield volcano","Historical","D1",0,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+1977,0,0,"Iceland",65.73,-16.78,650,"Caldera","Historical","D1",1,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1977,0,0,"Russia",56.057,160.638,4835,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1978,0,0,"Japan",42.53,140.83,731,"Stratovolcano","Historical","D1",3,3,1,NA,NA,2,1,NA,NA,NA,NA
+1978,0,0,"Philippines",12.77,124.05,1565,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1978,0,0,"Guatemala",14.756,-91.552,3772,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1979,0,0,"Indonesia",-7.2,109.92,2565,"Complex volcano","Historical","D1",1,149,3,NA,NA,NA,NA,NA,NA,NA,NA
+1979,0,0,"Papua New Guinea",-4.649,145.964,1839,"Stratovolcano","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1979,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",2,9,1,NA,NA,23,1,NA,NA,NA,NA
+1979,0,0,"Japan",32.88,131.1,1592,"Caldera","Historical","D1",2,3,1,NA,NA,11,1,NA,NA,NA,NA
+1980,1,1,"United States",46.2,-122.18,2549,"Stratovolcano","Historical","D1",5,57,2,NA,NA,NA,NA,2000,4,NA,NA
+1980,0,0,"Iceland",63.98,-19.7,1491,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1981,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,10,3,NA,NA
+1981,0,0,"Russia",50.858,155.55,2339,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1981,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",NA,200,3,NA,NA,NA,NA,NA,NA,NA,NA
+1981,0,0,"Indonesia",-8.32,121.708,875,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,1
+1982,0,1,"Mexico",17.36,-93.228,1150,"Tuff cone","Historical","D1",5,1879,4,1755,4,NA,NA,3.3,2,NA,NA
+1982,0,0,"Mexico",17.36,-93.228,1150,"Tuff cone","Historical","D1",5,33,1,NA,NA,NA,NA,NA,NA,NA,NA
+1982,0,0,"Indonesia",-7.25,108.05,2168,"Stratovolcano","Historical","D1",4,68,2,NA,NA,NA,NA,15,3,NA,NA
+1982,0,0,"Mexico",17.36,-93.228,1150,"Tuff cone","Historical","D1",5,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1983,0,0,"Russia",56.057,160.638,4835,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1983,0,0,"Indonesia",-0.17,121.608,507,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1983,1,0,"Indonesia",-8.54,123.59,1018,"Complex volcano","Historical","D1",1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1983,0,1,"Japan",34.08,139.53,815,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1984,0,0,"Equatorial Guinea",3.35,8.63,2009,"Shield volcano","Holocene","U",NA,37,1,NA,NA,NA,NA,NA,NA,NA,NA
+1984,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1985,0,0,"Colombia",4.895,-75.322,5321,"Stratovolcano","Historical","D1",3,23080,4,NA,NA,10000,4,NA,NA,NA,NA
+1986,0,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1986,0,0,"Cameroon",6.25,10.5,3011,"Maar","Radiocarbon","D5",3,1700,4,NA,NA,300,3,NA,NA,NA,NA
+1986,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1986,0,0,"Japan",34.73,139.38,758,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1987,0,0,"Guatemala",14.381,-90.601,2552,"Complex volcano","Historical","D1",3,NA,NA,NA,NA,15,1,NA,1,63,2
+1987,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",2,2,1,NA,NA,7,1,NA,NA,NA,NA
+1987,0,1,"Indonesia",-8.51,124.148,862,"Complex volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1988,0,0,"Pacific Ocean",-4.525,129.871,640,"Caldera","Historical","D1",3,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1988,0,0,"Costa Rica",10.463,-84.703,1657,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1988,0,0,"Chile",-38.377,-71.58,2865,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1990,0,0,"Russia",56.653,161.36,3283,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1990,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",4,32,1,NA,NA,NA,NA,NA,NA,NA,NA
+1990,0,0,"Peru",-15.78,-71.85,5967,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1990,0,0,"Guatemala",14.756,-91.552,3772,"Stratovolcano","Historical","D1",3,4,1,NA,NA,NA,NA,NA,NA,NA,NA
+1990,0,0,"Japan",32.75,130.3,1500,"Complex volcano","Historical","D1",1,43,1,NA,NA,NA,NA,NA,NA,NA,NA
+1991,0,1,"Philippines",15.13,120.35,1486,"Stratovolcano","Historical","D1",6,450,3,NA,NA,4,1,NA,3,NA,NA
+1991,0,0,"Comoros",-11.75,43.38,2361,"Shield volcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1991,0,0,"Chile",-45.9,-72.97,1905,"Stratovolcano","Historical","D1",5,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1991,0,0,"Indonesia",1.358,124.792,1580,"Stratovolcano","Historical","D1",1,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1991,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,2.5,2,NA,NA
+1992,0,0,"Nicaragua",12.506,-86.702,728,"Cinder cone","Historical","D1",3,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1992,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",1,6,1,NA,NA,NA,NA,NA,NA,NA,NA
+1992,0,0,"Philippines",15.13,120.35,1486,"Stratovolcano","Historical","D1",1,6,1,NA,NA,NA,NA,NA,NA,NA,NA
+1992,0,0,"United States",61.3,-152.25,3374,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,2,2,NA,NA
+1993,0,0,"Colombia",1.22,-77.37,4276,"Complex volcano","Historical","D1",2,9,1,NA,NA,NA,NA,NA,NA,NA,NA
+1993,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",2,75,2,NA,NA,NA,NA,NA,NA,NA,NA
+1993,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",0,1,1,NA,NA,22,1,NA,NA,NA,NA
+1993,0,0,"Indonesia",-6.102,105.423,813,"Caldera","Historical","D1",1,1,1,NA,NA,5,1,NA,NA,NA,NA
+1993,0,0,"Japan",32.75,130.3,1500,"Complex volcano","Historical","D1",1,1,1,NA,NA,NA,NA,NA,NA,NA,1
+1994,0,0,"Vanuatu",-19.52,169.425,361,"Stratovolcano","Historical","D1",3,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1994,0,0,"Indonesia",-0.381,100.473,2891,"Complex volcano","Historical","D1",2,1,1,NA,NA,5,1,NA,NA,NA,NA
+1994,1,0,"Papua New Guinea",-4.271,152.203,688,"Pyroclastic shield","Historical","D1",3,4,1,NA,NA,NA,NA,35,4,NA,NA
+1994,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",3,60,2,NA,NA,NA,NA,NA,NA,NA,NA
+1995,0,0,"Cape Verde",14.95,-24.35,2829,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,20,1,NA,1,10,1
+1996,1,0,"Russia",54.05,159.43,1536,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1996,0,0,"Mexico",19.023,-98.622,5426,"Stratovolcano","Historical","D1",3,5,1,NA,NA,NA,NA,NA,1,NA,NA
+1996,0,0,"Indonesia",-8.108,112.92,3676,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1996,0,0,"Iceland",64.42,-17.33,1725,"Caldera","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+1997,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",1,3,1,NA,NA,NA,NA,NA,NA,NA,NA
+1997,0,0,"Montserrat",16.72,-62.18,915,"Stratovolcano","Historical","D1",3,22,1,1,NA,NA,NA,NA,NA,NA,NA
+1997,0,0,"Montserrat",16.72,-62.18,915,"Stratovolcano","Historical","D1",3,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+1997,1,0,"Montserrat",16.72,-62.18,915,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1998,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+1999,1,0,"Montserrat",16.72,-62.18,915,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1999,0,0,"Guatemala",14.473,-90.88,3763,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1999,0,0,"Russia",56.653,161.36,3283,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2000,1,1,"Japan",34.08,139.53,815,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2000,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",NA,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+2001,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,1,NA,NA
+2001,0,0,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,1,NA,1
+2002,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,1
+2002,0,0,"Congo, DRC",-1.52,29.25,3470,"Stratovolcano","Historical","D1",1,100,2,NA,NA,400,3,NA,3,NA,3
+2002,0,1,"Italy",37.734,15.004,3350,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,32,1,NA,2,NA,2
+2002,1,0,"Italy",38.789,15.213,926,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,1,NA,1,NA,1
+2003,1,0,"Montserrat",16.72,-62.18,915,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2004,0,0,"Indonesia",-7.942,112.95,2329,"Stratovolcano","Historical","D1",2,2,1,NA,NA,5,1,NA,NA,NA,NA
+2005,0,0,"Comoros",-11.75,43.38,2361,"Shield volcano","Historical","D1",NA,NA,1,NA,NA,NA,NA,NA,1,NA,NA
+2006,0,0,"New Zealand",-29.27,-177.92,516,"Stratovolcano","Historical","D1",NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+2006,1,0,"Montserrat",16.72,-62.18,915,"Stratovolcano","Historical","D1",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2006,0,0,"Philippines",12.77,124.05,1565,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+2006,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",1,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+2006,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",1,1266,4,NA,NA,NA,NA,NA,1,NA,NA
+2006,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",3,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+2006,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",3,5,1,NA,2,13,1,NA,3,NA,3
+2007,0,0,"Colombia",2.92,-76.05,5365,"Stratovolcano","Historical","D5",NA,NA,NA,NA,NA,NA,NA,NA,2,NA,1
+2007,0,0,"Yemen",15.7,41.742,244,"Stratovolcano","Historical","D3",NA,7,1,NA,NA,1,1,NA,NA,NA,NA
+2008,0,0,"Chile",-42.833,-72.646,962,"Caldera","Holocene","D1",NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+2008,1,0,"United States",52.18,-175.5,314,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2008,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",3,2,1,NA,NA,2,1,NA,1,2,1
+2008,0,0,"Colombia",2.92,-76.05,5365,"Stratovolcano","Historical","D5",NA,10,1,NA,1,NA,1,NA,NA,NA,NA
+2009,0,0,"United States",60.48,-152.75,3108,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2009,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA
+2010,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2010,0,0,"Iceland",63.63,-19.62,1666,"Stratovolcano","Historical","D1",2,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+2010,0,0,"Guatemala",14.381,-90.601,2552,"Complex volcano","Historical","D1",1,1,1,3,1,NA,NA,NA,1,3,1
+2010,1,1,"United States",16.708,145.78,538,"Stratovolcano","Holocene","U",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2010,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",3,4,1,NA,NA,5,1,NA,NA,NA,1
+2010,0,0,"Indonesia",3.17,98.392,2460,"Stratovolcano","Holocene","U",NA,2,1,NA,NA,NA,NA,NA,NA,NA,NA
+2010,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",NA,324,3,NA,NA,427,3,600,4,NA,3
+2010,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",3,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2010,0,0,"Indonesia",-7.942,112.95,2329,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2011,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",NA,1,1,NA,NA,1,1,NA,1,NA,NA
+2011,0,0,"Japan",31.93,130.87,1700,"Shield volcano","Historical","D1",NA,NA,NA,NA,NA,NA,1,NA,1,NA,NA
+2011,0,0,"Philippines",12.77,124.05,1565,"Stratovolcano","Historical","D1",2,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+2011,0,0,"Indonesia",2.78,125.48,1784,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2011,0,0,"Ecuador",-1.467,-78.442,5023,"Stratovolcano","Historical","D1",4,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2011,0,0,"Chile",-40.59,-72.117,2236,"Stratovolcano","Holocene","U",4,NA,NA,NA,NA,NA,NA,NA,2,NA,NA
+2011,0,0,"Eritrea",13.37,41.7,2218,"Stratovolcano","Holocene","Unknown",3,7,1,NA,NA,NA,3,NA,NA,NA,NA
+2011,0,0,"Iceland",63.63,-19.05,1512,"Subglacial volcano","Historical","D2",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2011,0,0,"Indonesia",1.358,124.792,1580,"Stratovolcano","Historical","D1",NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA
+2011,0,0,"Indonesia",0.8,127.325,1715,"Stratovolcano","Historical","D1",3,4,1,NA,NA,NA,1,NA,NA,NA,NA
+2012,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA
+2012,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1
+2012,0,0,"Russia",55.83,160.33,3682,"Shield volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2013,0,0,"Indonesia",-7.542,110.442,2947,"Stratovolcano","Historical","D1",NA,1,1,NA,NA,1,1,NA,1,NA,NA
+2013,0,0,"Indonesia",-8.32,121.708,875,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1
+2013,0,0,"Philippines",13.257,123.685,2462,"Stratovolcano","Historical","D1",NA,5,1,NA,NA,8,1,NA,NA,NA,NA
+2013,0,0,"Indonesia",-8.32,121.708,875,"Stratovolcano","Historical","D1",3,5,1,NA,NA,NA,NA,NA,NA,NA,NA
+2013,0,0,"Peru",-16.355,-70.903,5672,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2013,0,0,"Japan",31.58,130.67,1117,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+2013,0,0,"Indonesia",3.17,98.392,2460,"Stratovolcano","Holocene","U",2,NA,NA,NA,NA,NA,NA,NA,2,NA,NA
+2014,0,0,"Indonesia",3.17,98.392,2460,"Stratovolcano","Holocene","U",NA,17,1,NA,NA,3,1,NA,1,NA,2
+2014,0,0,"Indonesia",-7.93,112.308,1731,"Stratovolcano","Historical","D1",NA,7,1,NA,NA,NA,NA,NA,3,4098,4
+2014,0,0,"Japan",35.9,137.48,3063,"Complex volcano","Historical","D1",3,55,2,NA,NA,70,2,NA,NA,NA,NA
+2014,0,0,"United States",19.425,-155.292,1222,"Shield volcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,14.5,3,1,1
+2014,0,0,"Cape Verde",14.95,-24.35,2829,"Stratovolcano","Historical","D1",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1

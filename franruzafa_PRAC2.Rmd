@@ -1,0 +1,424 @@
+---
+title: 'Tipología y ciclo de vida de los datos - Practica 2'
+author: "Autor: Francisco Manuel Ruzafa Costas"
+date: "Enero 2018"
+output:
+  html_document:
+    highlight: default
+    number_sections: yes
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+    includes:
+      in_header: 75.584-PEC-header.html
+  word_document: default
+  pdf_document:
+    highlight: zenburn
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval=T, echo=T)
+```
+
+# Descripción del dataset. 
+
+Este conjunto de datos corresponde a información sobre erupciones volcánicas y ha sido obtenido de _data.world_ en el siguiente link (https://data.world/stuartltinsley/volcanic-eruptions-data-set). 
+
+Está formado por 658 observaciones con 36 atributos, distribuidos de la siguiente forma:
+
+- Year: año en el que se produjo el terremoto.
+
+- Month: mes en el que se podujo el terremoto.
+
+- Day: día en el que se produjo el terremoto.
+
+- Associated.tsunami: indica si hubo un tsunami.
+
+- Associated.earthquake: indica si hubo un terremoto.
+
+- Name: nombre del volcán.
+
+- Location: lugar donde se encuentra el volcán.
+
+- Country: país donde se encuentra el volcán.
+
+- Latitude: latitud.
+
+- Longitude: longitud.
+
+- Elevation: altura.
+
+- Type: tipo de volcán.
+
+- Status: estado del volcán.
+
+- Time: fecha última erupción (D1-D7 según [1964 o posterior, 1900-1963, 1800-1899, 1700-1799, 1500-1699, 1-1499, B.C.], o U para desconocido (probablemente D7))
+
+- VEI: índice de explosividad volcánica, es una escala 0-8 que determina la magnitud de una erupción volcánica.
+
+- Agent: agente causante de la erupción
+
+_A partir de aquí se presentan datos númericos junto a su clasificación en categorías (1 para rango 1-10, 2 para rango 11-100, 3 para rango 101-1000, 4 para 1001+)_
+
+- Deaths: muertes causadas por la erupción.
+
+- Deaths_description: rango de muertes.
+
+- Missing: desaparecidos por la erupción.
+
+- Missing_description: rango de desaparecidos.
+
+- Injuries: heridos por la erupción.
+
+- Injuries_description: rango de heridos.
+
+- Damage_million_dollars: daño material en millones de dólares.
+
+- Damage_description: rango de daños materiales.
+
+- Houses_destroyed: casas destruidas por la erupción.
+
+- Houses_destroyed_description: causa destrucción de casas.
+
+_A partir de aqui se presentan datos que incluyen los provocados por la erupción directamente sumados a las consecuencias posteriores_
+
+- Total_deaths: total de muertes.
+
+- Total_deaths_description: rango total de muertes.
+
+- Total_missing_ total desaparecidos.
+
+- Total_missing_decription: rango total desaparecidos.
+
+- Total_injuries: total heridos.
+
+- Total_injuries_description: rango total heridos.
+
+- Total_damage_million_dollars: total daños materiales.
+
+- Total_damage_description: rango total daños materiales.
+
+- Total_houses_destroyed: total casas destruidas.
+
+- Total_houses_destroyed_description: rango total casas destruidas.
+
+
+## ¿Por qué es importante y qué pregunta/problema pretende responder?
+Mediante este conjunto de datos se pueden observar distintos fenómenos que abarcan desde el análisis geográfico de las erupciones volcánicas hasta los daños materiales y personales que provocan en función de determinados parámetros (año de la erupción, situación geográfica, intensidad de la erupción).
+
+Estos datos permiten analizar si se están aplicando medidas útiles en la prevención de daños por erupciones volcánicas, en qué países se aplican mejores medidas (para extenderlas a otras zonas) y que factores son los más determinantes en la causa de daños.
+
+De esta forma, además de un análisis histórico, también se pueden crear modelos predictivos que en función de unas características de erupción dadas, pueda obtener valores numéricos (regresión) o rangos (clasificación) para el número de muertes, heridos o daños materiales.
+
+# Integración y selección de los datos de interés a analizar.
+
+En primer lugar se cargan y se observa la estructura de los datos:
+
+```{r}
+# Carga de datos
+raw.data <- read.csv('volcano_eruptions.csv')
+
+# Estructura de los datos
+str(raw.data)
+```
+
+Esta visión nos proporciona información acerca del tipo de dato para cada atributo. Además se observan los datos vacíos que nos vamos a encontrar a la hora de realizar la limpieza y posterior análisis de los datos.
+
+Dado que se quieres estudiar la influencia directa de las erupciones, se eliminan los datos totales, dejando sólo aquellos que dependen de forma inmediata de la catastrofe. Por otra parte se eliminan otros datos por tener poco interés o resultar repetitivos:
+
+- Month & Day: dada la línea temporal en la que se trabaja, basta con clasificar las erupciones por año (incluso periodos similares), de forma similar a los realizado en la variable Time. El día y el mes podrían ser útiles de cara a un análisis que integre la época del año como variable, en cuyo caso lo óptimo sería crear una nueva variable para la estación del año (ya que el mismo mes tiene estaciones distintas según el hemisferio). Para este modelo no se considera necesario ese atributo.
+
+- Name: no aporta información relevante.
+
+- Location: no aporta información al modelo frente a la variable Country.
+
+- Agent: esta variable sí aporta información, pero las categorías no se encuentras descritas en la fuente y no ha sido posible descrifrar el valor para cada letra.
+
+```{r}
+# Se eliminan los valores totales
+data <-  raw.data[, 1:26]
+
+# Se elimina month(2), day(3), name(6), location(7), agent(16)
+data <- data[, -c(2, 3, 6, 7, 16)]
+
+```
+
+Obteniendo un dataset de 658 observaciones y 21 atributos, que se limpiará a continuación.
+
+# Limpieza de los datos.
+
+## ¿Los datos contienen ceros o elementos vacíos? ¿Cómo gestionarías cada uno de estos casos?
+
+En primer lugar, hay que resolver la existencia de datos vacíos que aún no son NA. Esto aparece en los campos relacionados con tsunamis y terremotos.
+
+```{r}
+# Resumen de estos atributos
+summary(data[, c('Associated_tsunami', 'Associated_earthquake')])
+```
+
+Por lo tanto, se considera que donde aparece 'TSU' o 'EQ' se podrujeron estos fenomenos (1) y donde aparece un espacio en blanco, no sucedieron (0).
+
+```{r}
+# Tsunami a 0/1
+data[, 'Associated_tsunami'] <- as.character(data[, 'Associated_tsunami'])
+data[data$Associated_tsunami == '', 'Associated_tsunami'] <- 0
+data[data$Associated_tsunami == 'TSU', 'Associated_tsunami'] <- 1
+data[, 'Associated_tsunami'] <- as.integer(data[, 'Associated_tsunami'])
+
+# Vacíos a NAs terremoto
+data[, 'Associated_earthquake'] <- as.character(data[, 'Associated_earthquake'])
+data[data$Associated_earthquake == '', 'Associated_earthquake'] <- 0
+data[data$Associated_earthquake == 'EQ', 'Associated_earthquake'] <- 1
+data[, 'Associated_earthquake'] <- as.integer(data[, 'Associated_earthquake'])
+```
+
+En el punto anterior se ha observado la presencia de falta de datos en algunos atributos (NA). Para observar la magnitud de este hecho, se muestra un resumen de los datos.
+
+```{r}
+# Resumen de los datos
+summary(data)
+```
+
+Dada la cantidad de NAs en muchos de los atributos (los que corresponden a consecuencias de los sucesos), no existe ni la posibilidad de eliminar las observaciones que no están completas, ni la posibilidad de inferir los valores inexistentes. Este fenómeno ocurre porque algunos datos no han podido ser registrados, ya que medir a nivel histórico las muertes provacadas por una determinada catastrofe resulta inviable.
+
+Por tanto, se realizarán análisis parciales para los datos existentes en lugar de eliminar registros del dataset.
+
+## Identificación y tratamiento de valores extremos.
+
+Resulta interesante identificar la existencia o no de outliers, o al menos determinar su naturaleza para posteriores análisis de los datos. Los campos susceptibles de tener valores extremos son los relacionados con las consecuencias de las erupciones, ya que el resto son categóricos o están acotados.
+
+```{r}
+# Valores extremos de muertes
+boxplot(data$Deaths)
+```
+
+¿Significa esto que debemos eliminar los valores extremos? Estos datos pueden ser perfectamente válidos, vamos a examinar detenidamente los datos asociados a estas observaciones (número de muertos superior a 8000).
+
+```{r}
+# Detalle de observaciones con muertos superiores a 8000
+data[data$Deaths > 8000 &  !is.na(data$Deaths) , ]
+```
+
+Se observa, en primer lugar, que los tipos de volcanes que han producido estos desastres son dos, y aparecen repetidos, por lo que se puede considerar que son volcanes especialmente peligrosos bien sea por su naturaleza o bien sea por su proximidad a poblaciones. Se observa también, que en dos de los casos aparecen tsunamis, y en otro de los casos el número de heridos también es un dato muy elevado. Los datos de VEI son variados pero iguales o mayores que tres (intensidad de la erupción).
+
+Por todas estas razones, no existe ninguna razón clara por la que considerar datos erróneos o falsos, por lo que se mantienen estas observaciones. Veamos los desaparecidos.
+
+```{r}
+# Valores extremos de desaparecidos
+boxplot(data$Missing)
+```
+
+Aparece un solo valor extremo, se estudia en detalle.
+
+```{r}
+# Detalle de observaciones con número de desaparecidos superior a 1000
+data[data$Missing > 1000 &  !is.na(data$Missing) , ]
+```
+
+La intesidad es alta y el número de muertes tambien. Además, aparece asociado un terremoto (el cual provoca derrumbamientos de de eficios y estructuras), por lo que los datos a priori parecen reales.
+
+```{r}
+# Valores extremos de heridos
+boxplot(data$Injuries)
+```
+
+De nuevo un valor extremo, que se ha estudiado en el apartado de número de muertes y se considera válido.
+
+
+```{r}
+# Valores extremos de coste material
+boxplot(data$Damage_million_dollars)
+```
+
+Dos valores extremos, se estudian en detalle.
+
+```{r}
+# Detalle de observaciones con coste material superior a 500 millones de dolares
+data[data$Damage_million_dollars > 500 &  !is.na(data$Damage_million_dollars) , ]
+```
+
+Al igual que en el caso del número de muertes, se producen por el mismo tipo de volcán. El segundo registro deja claro que se trata de un gran desastre, con valores elevados para muertes, heridos y casas destruidas. El primer registro, a pesar de no contar con estos datos, muestra la aparición de tsunami y terremoto, los cuales podrían estar detras del elevado coste material de la erupción.
+
+Por tanto, ambos registros se consideran válidos. Se estudia el número de casas detruidas.
+
+```{r}
+# Valores extremos de casas destruidas
+boxplot(data$Houses_destroyed)
+```
+
+
+Aparecen valores extremos, se estudia en detalle.
+
+
+```{r}
+# Detalle de observaciones con casas destruidas por encima de 2000
+data[data$Houses_destroyed > 2000 &  !is.na(data$Houses_destroyed) , ]
+```
+
+En este caso, de nuevo coincide el tipo de volcán. Además, se repiten dos países, Japón e Indonesia, siendo el primero un gran conocido por su densidad de población (y por tanto, de hogares). Aparecen también registros de heridos elevados, lo cual podría estar relacionado, y a su vez, número de muertes elevado para el segundo registro. Finalmente el último registro cuenta con daños materiales elevados (valor de 3), lo cual cuadra con el número de hogares destruido elevado.
+
+No existe evidencia que demuestre que estos datos son erróneos, por lo que se mantienen las observaciones.
+
+
+Se da por finalizado el proceso de preprocesamiento de los datos. A pesar de no haber realizado grandes modificaciones, resulta necesario realizar este procedmiento para resolver posibles errores en los datos, así como para conocer la estructura y distribución de los datos existentes. Se almacenan los datos en un nuevo fichero.
+
+
+```{r}
+# Se almacenan los datos
+write.csv(data, "clean_volcano_eruptions.csv", row.names = FALSE)
+```
+
+
+# Análisis de los datos y representación de los resultados a partir de tablas y gráficas.
+
+Para este punto, se han unido los análisis con las representaciones por cuestiones de visibilidad y comodidad.
+
+En primer lugar se cargan los datos del fichero limpio.
+
+```{r}
+data <- read.csv("clean_volcano_eruptions.csv")
+```
+
+## Distribución temporal y según intensidad de los datos
+
+```{r}
+# Distribucion de los datos por fecha
+hist(data$Year)
+```
+
+Se observa que la mayoría de los registros pertenecen a las épocas más recientes, veamos la distribución según la intensidad.
+
+```{r}
+# Distribucion de los datos por fecha
+hist(data$VEI)
+```
+
+Los registros más repetidos son las intensidades 2 y 3, ¿qué pasa al cruzar estos datos?
+
+```{r}
+plot(data$Year, data$VEI)
+```
+
+Sólo se poseen registros antiguos en el caso de erupciones de alta intensidad, ya que las pequeñas no quedaron guardadas y no es posible encontrar sus huellas. Por lo tanto, resulta interesante crear un subconjunto de datos para datos más recientes, se elige como criterio los datos de los últimos 500 años.
+
+```{r}
+# Subconjunto de datos modernos
+modern.data <- data[data$Year > 1500, ]
+```
+
+Se representa de nuevo.
+
+```{r}
+plot(modern.data$Year, modern.data$VEI)
+```
+
+Observando una distribución mucho más homógenea (donde también se observa la densidad de puntos para VEIs de 2 y 3).
+
+## Distribucion geografica de las erupciones
+
+Usaremos ggplot para observar la distribución geografica.
+
+```{r}
+library(ggplot2)
+mp <- NULL
+mapWorld <- borders("world", colour="gray50", fill="gray50") 
+mp <- ggplot() +   mapWorld
+
+mp <- mp + geom_point(aes(x = data$Longitude, y = data$Latitude) , color = "Blue", size = 3) 
+mp
+```
+
+Se puede observar la densidad volcánica en algunas zonas determinadas, por ejemplo Indonesia, Islandia o Japón. Resulta prometedora la relación entre distribución geográfica e intensidad de la erupción, por lo que se crea un subconjunto del subconjunto moderno, en el que sólo se utilizan las observaciones con datos de VEI.
+
+```{r}
+# Datos con VEI no nulo
+VEI.data <- modern.data[!is.na(modern.data$VEI), ]
+```
+
+Y se representa un nuevo mapa en función de la intensidad.
+
+
+```{r}
+mp <- NULL
+mapWorld <- borders("world", colour="gray50", fill="gray50") 
+mp <- ggplot() +   mapWorld
+
+mp <- mp + geom_point(aes(x = VEI.data$Longitude, y = VEI.data$Latitude, color = VEI.data$VEI), size = 2) 
+
+mp + scale_color_gradient(low="blue", high="red")
+```
+
+Obteniendo información valiosa acerca de la distribución de los terremotos por intensidades.
+
+
+# Distribuciones de las pérdidas (muertes, heridos, pérdidas materiales)
+
+Se muestra la distribución de número de muertes.
+
+```{r}
+# Historgrama de numero de muertes
+hist(data[!is.na(data$Deaths), 'Deaths'])
+```
+
+No aporta mucha información, ya que en general, el número de muertes (y heridos, y daños materiales, etc) es bajo.
+
+Por tanto, la mejor forma de trabajar con estos datos es con las variables categoricas (1-4) para cada tipo de pérdidas.
+
+## Relacion entre año y pérdidas
+
+```{r}
+# Numero de muertes por año
+plot(modern.data$Year, modern.data$Deaths_description)
+
+# Numero de desaparecidos por año
+plot(modern.data$Year, modern.data$Missing_description)
+
+# Numero de heridos por año
+plot(modern.data$Year, modern.data$Injuries_description)
+
+# Numero de daños por año
+plot(modern.data$Year, modern.data$Damage_description)
+
+# Numero de casas destruidas por año
+plot(modern.data$Year, modern.data$Houses_destroyed_description)
+
+```
+
+La tendencia es clara, la densidad de sucesos sin grandes pérdidas es mayor conforme evolucionan los años, resultado que es una combinación de la mejora de medidas preventivas y de rescate, y del amyor número de registros de erupciones volcánicas (se consideran registros de erupciones de baja intensidad).
+
+
+## Relacion entre situacion geográfica y numero de muertes
+
+Dado que es el atributo con mayor número de observaciones, se elige el número de muertes como parámetro para estudiar geográficamente las catástrofes.
+
+```{r}
+mp <- NULL
+mapWorld <- borders("world", colour="gray50", fill="gray50") 
+mp <- ggplot() +   mapWorld
+
+mp <- mp + geom_point(aes(x = modern.data$Longitude, y = modern.data$Latitude, color = modern.data$Deaths_description), size = 2) 
+
+mp + scale_color_gradient(low="blue", high="red")
+```
+
+Se observa que las zonas con mayor número de muertes poseen dos características interesantes de analizar:
+
+- No se corresponden, en general, con las zonas de mayor número de erupciones. Esto permite deducir que estas zonas más peligrosas tienen desarrollados mecanismos y herramientas que permitan disminuir las consecuencias de las erupciones.
+
+- No se corresponden, en general, con las zonas de erupciones de mayor intensidad (mapa estudiado anteriormente). De nuevo, las zonas con erupciones de mayor intensidad se encuentran más preparadas para estos fenómenos.
+
+# Resolución del problema. 
+## A partir de los resultados obtenidos, ¿cuáles son las conclusiones? ¿Los resultados permiten responder al problema?
+
+En este análisis se han observado las variables que pueden afectar no sólo a la aparación de erupciones volcánicas, sino al alcance y magnitud de sus efectos.Las cuestiones planteadas se distribuyen entre la variable temporal, la variable geográfica y la variable de la intesidad de la erupción.
+
+En relación a la variable temporal, se ha observado que había que filtrar los datos antiguos ya que sólo guardan registros de aquellas erupciones de mayor intesidad. Además, se ha observado que las pérdidas disminuyen a medida que avanza el tiempo, es decir, que cada vez son menores (hasta practicamente la actualidad).
+
+La variable geográfica nos muestra dos hechos claros: las zonas de erupciones volcánicas son muy claras (además con una intensidad más o menos determinada para cada zona) y la zona geográfica sí influye en el número de muertes. Se observa claramente que las zonas con mayor incidencia volcánica también son las que mejor preparadas están ante nuevos sucesos.
+
+Finalmente, y del mismo modo, la intensidad de la erupción influye en las pérdidas, pero las zonas geográficas con más incidencia (y por lo tanto, mayor número de herramientas con las que paliar estos fenómenos), resuelven mejor las incidencias de alta intensidad. Por el contrario, las zonas menos preparadas sufren pérdidas muy grandes incluso en erupciones de menor intensidad.
+
+Estas conclusiones sirven de punto de aprtida de cara a crear modelos capaces de predecir las consecuencias de nuevas erupciones volcánicas, aunque para ellos resultaría necesario contar con un mayor número de observaciones con datos completos (ya que como se ha observado en el apartado de limpieza, la mayoría de ellas tienen vacíos de datos). 
+
+
